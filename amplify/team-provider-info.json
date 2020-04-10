@@ -38,6 +38,9 @@
                     "appId": "d1og56s92fo80z",
                     "type": "cicd"
                 }
+            },
+            "auth": {
+                "amplifytest9b8e86a3": {}
             }
         }
     }
