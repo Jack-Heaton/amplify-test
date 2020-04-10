@@ -6,7 +6,7 @@
 		}
 	},
 	"auth": {
-		"amplifytestac4fa75a": {
+		"amplifytest2178b001": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []

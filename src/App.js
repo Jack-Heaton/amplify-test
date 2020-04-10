@@ -5,9 +5,9 @@ import './App.css';
 import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
 import '@aws-amplify/ui/dist/style.css';
-import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
 
 Amplify.configure(awsconfig);
+
 
 function App() {
   return (
@@ -33,4 +33,4 @@ function App() {
   );
 }
 
-export default withAuthenticator(App, true);
+export default App

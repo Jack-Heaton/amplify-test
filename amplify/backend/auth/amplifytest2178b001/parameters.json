@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "amplifytestac4fa75a_identitypool_ac4fa75a",
+    "identityPoolName": "amplifytest2178b001_identitypool_2178b001",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplifac4fa75a",
-    "userPoolName": "amplifytestac4fa75a_userpool_ac4fa75a",
+    "resourceNameTruncated": "amplif2178b001",
+    "userPoolName": "amplifytest2178b001_userpool_2178b001",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -30,9 +30,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplifac4fa75a_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "amplif2178b001_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "amplifytestac4fa75a",
+    "resourceName": "amplifytest2178b001",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
