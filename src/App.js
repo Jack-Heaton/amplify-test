@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import awsconfig from '../aws-exports'
+import awsconfig from './src/aws-exports'
 
 function App() {
   return (
