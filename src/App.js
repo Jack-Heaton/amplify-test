@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload!!
+          I'm the development app!
         </p>
         <p>
           {awsconfig.aws_cognito_region}
