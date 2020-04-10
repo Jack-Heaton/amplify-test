@@ -6,11 +6,10 @@
 		}
 	},
 	"auth": {
-		"amplifytest1ac43305": {
+		"amplifytestac4fa75a": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
-			"dependsOn": [],
-			"customAuth": false
+			"dependsOn": []
 		}
 	}
 }

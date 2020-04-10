@@ -1,7 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import awsconfig from './aws-exports'
+
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import '@aws-amplify/ui/dist/style.css';
+import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
+
+Amplify.configure(awsconfig);
 
 function App() {
   return (
@@ -9,7 +15,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload!!!
+          Edit <code>src/App.js</code> and save to reload!!
         </p>
         <p>
           {awsconfig.aws_cognito_region}
@@ -27,4 +33,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App, true);

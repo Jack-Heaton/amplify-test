@@ -36,14 +36,14 @@
             "AmplifyAppId": "d3tmi03296p5j0"
         },
         "categories": {
-            "auth": {
-                "amplifytest1ac43305": {}
-            },
             "hosting": {
                 "amplifyhosting": {
                     "appId": "d3tmi03296p5j0",
                     "type": "cicd"
                 }
+            },
+            "auth": {
+                "amplifytestac4fa75a": {}
             }
         }
     }
